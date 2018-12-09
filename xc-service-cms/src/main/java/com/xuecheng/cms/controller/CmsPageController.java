@@ -16,4 +16,10 @@ public class CmsPageController implements CmsPageControllerApi {
     public String findList(@PathVariable("page") int page, @PathVariable("size") int size) {
             return "hello"+page+"  "+size;
     }
+
+
+    @GetMapping("/add")
+    public String add(){
+        return "添加成功";
+    }
 }
