@@ -22,4 +22,8 @@ public class CmsPageController implements CmsPageControllerApi {
     public String add(){
         return "添加成功";
     }
+
+    public void insert(){
+
+    }
 }
